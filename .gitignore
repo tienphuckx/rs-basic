@@ -1,0 +1,27 @@
+# General JetBrains IDE files
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Rust/Cargo-related files
+target/
+**/*.rs.bk
+Cargo.lock
+Cargo.toml.orig
+
+# Dependency/Build-related files
+/target/
+debug/
+release/
+
+# Temporary files created by Rust tools
+*.rs.bk
+
+# Debugging output
+*.log
+*.trace
+
+# Operating System Files
+.DS_Store
+Thumbs.db
